@@ -36,8 +36,8 @@ def turn(board)
 end
 
 def play(board)
-  loop do turn(board, index)
-  if turn(board) > 9
+  loop do turn(board)
+  if move(board, index) > 9
  end
 end
 
