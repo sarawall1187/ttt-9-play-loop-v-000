@@ -38,7 +38,7 @@ end
 def play(board)
   loop do 
     turn(board) = 0
-  until turn(board)
+  until turn(board) > 9
  end
 end
 
